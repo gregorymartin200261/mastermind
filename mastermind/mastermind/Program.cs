@@ -21,6 +21,7 @@ namespace mastermind
             }
         }
 
+        //Calule  du nombre de pions rouge  s
         static void PionRouge(int[] propositionTableau,int [] ChoixCombi ,out int nbrPionRouge)
         {
             nbrPionRouge = 0;
@@ -32,10 +33,33 @@ namespace mastermind
                 }
             }
         }
+        //Calule  du nombre de pions blancs
+         static void PionBlanc(int[] propositionTableau,int [] ChoixCombi ,out int nbrPionBlanc)
+        {
+            nbrPionBlanc = 0;
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (propositionTableau[i] == ChoixCombi[j])
+	                {
+                        nbrPionBlanc++;
+                        propositionTableau[i] = -1;
+                        ChoixCombi[j] = -2;
+	                }  
+                    
+                }
+            }
+         }
+
         static void Afficher(int[] combi)
         {
             for (int i = 0; i <= 3; i++)
-            Console.Write(combi[i]);
+            {
+                Console.WriteLine("Entrez une combinaison de 4 chiffres")
+                Console.Write(combi[i]);
+                Console.WriteLine()
+            }
         }
     }
 }

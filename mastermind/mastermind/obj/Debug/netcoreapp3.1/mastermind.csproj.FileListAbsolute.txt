@@ -11,3 +11,16 @@ C:\Users\200261\Desktop\mastermind\mastermind\bin\Debug\netcoreapp3.1\mastermind
 C:\Users\200261\Desktop\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.dll
 C:\Users\200261\Desktop\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.pdb
 C:\Users\200261\Desktop\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.genruntimeconfig.cache
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\bin\Debug\netcoreapp3.1\mastermind.exe
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\bin\Debug\netcoreapp3.1\mastermind.deps.json
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\bin\Debug\netcoreapp3.1\mastermind.runtimeconfig.json
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\bin\Debug\netcoreapp3.1\mastermind.runtimeconfig.dev.json
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\bin\Debug\netcoreapp3.1\mastermind.dll
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\bin\Debug\netcoreapp3.1\mastermind.pdb
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.csprojAssemblyReference.cache
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.AssemblyInfoInputs.cache
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.AssemblyInfo.cs
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.csproj.CoreCompileInputs.cache
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.dll
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.pdb
+C:\Users\200261\Documents\mastermind\mastermind\mastermind\obj\Debug\netcoreapp3.1\mastermind.genruntimeconfig.cache
