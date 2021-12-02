@@ -7,11 +7,27 @@ namespace mastermind
         static void Main(string[] args)
         {
             int[] combi;
-            ChoixCombi(out combi); //out car sortie
+            int[] propositionTableau;
+            int nbrPionRouge;
+            int nbrPionBlanc;
+            int nbrChance = 12;
+            string proposition;
+            ChoixCombiF(out combi); //out car sortie
             Afficher(combi);       //pas de out car affichage
+            while (nbrPionRouge !=4 && nbrChance > 0)
+            { 
+                Console.WriteLine("Entrez une combinaison de 4 chiffres");
+                proposition = Console.ReadLine();
+                StringToArray(proposition, out int [] propositionTableau);
+                Afficher(propositionTableau);
+                PionRouge(propositionTableau , combi, out nbrPionRouge);
+                Console.WriteLine(nbrPionRouge);
+                PionBlanc(propositionTableau , combi, out nbrPionBlanc);
+                Console.WriteLine(nbrPionBlanc);
+            }
         }
         //cette fonction permet a l'ordinateur de choissir une combinaison de 4 chiffres
-        static void ChoixCombi(out int[] combi) {
+        static void ChoixCombiF(out int[] combi) {
             combi = new int[4];
             for (int i = 0; i <= 3; i++)
             {
@@ -56,10 +72,18 @@ namespace mastermind
         {
             for (int i = 0; i <= 3; i++)
             {
-                Console.WriteLine("Entrez une combinaison de 4 chiffres")
                 Console.Write(combi[i]);
                 Console.WriteLine()
             }
+        }
+
+        static void StringToArray(string proposition, out int[] propositionTableau)
+        { 
+            propositionTableau = new int[4];
+            for(int i = 0; i <= 3; i++)
+			{
+                propositionTableau[i] = proposition[i];
+			}
         }
     }
 }
